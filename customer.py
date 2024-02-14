@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 import joblib
 
 # Load the trained model
-model = joblib.load("/Users/mac/Desktop/Data notes/Stramlit/customer exiting model/best_model1.pkl")
+model = joblib.load("best_model1.pkl")
 
 # Define the app title and layout
 st.title("Bank Customer Churn Prediction App")
